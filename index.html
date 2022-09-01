@@ -16,7 +16,7 @@
 	<header class="header__container">	
 		<div class="header__container-nav">
 			<nav class="header__nav">
-				<a href="./index.html" class="header__logo" lang="en" aria-label="Логотип студії"><span class="logo__accent-nav">Web</span>Studio</a>
+				<a href="./index.html" class="logo header__logo" lang="en" aria-label="Логотип студії"><span class="logo__accent">Web</span>Studio</a>
 	
 				<ul class="header__nav-links">
 					<li class="header__nav-link active">
@@ -43,7 +43,7 @@
 	<!-- Main -->
 	<main class="page">
 		<!-- Hero -->
-		<section class="hero__container">
+		<section class="hero">
 			<h1 class="hero__title-main">Ефективні рішення для вашого бізнесу</h1>
 			<button type="button" class="hero__button">Замовити послугу</button>
 		</section>
@@ -95,26 +95,26 @@
 			<h2 class="team__title">Наша команда</h2>	
 			<ul class="team__items">
 				<li class="team__item">
-					<img src="./images/photo/designer-optim.jpg" alt="Ігор Дем'яненко, Product Designer" width="270"
+					<img class="team__item-img" src="./images/photo/designer-optim.jpg" alt="Ігор Дем'яненко, Product Designer" width="270"
 						height="260">
-					<h3>Ігор Дем'яненко</h3>
-					<p lang="en">Product Designer</p>
+					<h3 class="team__item-title">Ігор Дем'яненко</h3>
+					<p class="team__item-text" lang="en">Product Designer</p>
 				</li>
 				<li class="team__item">
-					<img src="./images/photo/developer-optim.jpg" alt="Ольга Рєпіна, Frontend Developer" width="270"
+					<img class="team__item-img" src="./images/photo/developer-optim.jpg" alt="Ольга Рєпіна, Frontend Developer" width="270"
 						height="260">
-					<h3>Ольга Рєпіна</h3>
-					<p lang="en">Frontend Developer</p>
+					<h3 class="team__item-title">Ольга Рєпіна</h3>
+					<p class="team__item-text" lang="en">Frontend Developer</p>
 				</li>
 				<li class="team__item">
-					<img src="./images/photo/marketing-optim.jpg" alt="Микола Тарасов, Marketing" width="270" height="260">
-					<h3>Микола Тарасов</h3>
-					<p lang="en">Marketing</p>
+					<img class="team__item-img" src="./images/photo/marketing-optim.jpg" alt="Микола Тарасов, Marketing" width="270" height="260">
+					<h3 class="team__item-title">Микола Тарасов</h3>
+					<p class="team__item-text" lang="en">Marketing</p>
 				</li>
 				<li class="team__item">
 					<img src="./images/photo/ui-optim.jpg" alt="Михайло Єрмаков, UI Designer" width="270" height="260">
-					<h3>Михайло Єрмаков</h3>
-					<p lang="en">UI Designer</p>
+					<h3 class="team__item-title">Михайло Єрмаков</h3>
+					<p class="team__item-text" lang="en">UI Designer</p>
 				</li>
 			</ul>	
 		</section>
@@ -123,23 +123,30 @@
 	<!-- Footer -->
 	<footer class="footer">
 	
-		<a href="./index.html" class="logo" lang="en" aria-label="Логотип студії"><span>Web</span>Studio</a>
-	
-		<address>
-			<ul>
-				<li>
-					<a href="https://goo.gl/maps/RVPCyD7gg6gCdLD38" target="_blank" rel="noopener noreferrer">м. Київ, пр-т
-						Лесі Українки,
-						26</a>
-				</li>
-				<li>
-					<a href="mailto:info@devstudio.com" aria-label="Посилання на єлектронну пошту">info@devstudio.com</a>
-				</li>
-				<li>
-					<a href="tel:+380961111111" aria-label="Посилання на номер телефону">+38 096 111 11 11</a>
-				</li>
-			</ul>
-		</address>
+		<section class="footer__container">
+			<h2 class="hidden__title">Contacts</h2>
+			<a href="./index.html" class="logo footer__logo" lang="en" aria-label="Логотип студії"><span
+					class="logo__accent">Web</span>Studio</a>
+			
+			<address class="footer__address">
+				<ul class="footer__address-list">
+					<li class="footer__address-item">
+						<a class="footer__address-link accent" href="https://goo.gl/maps/RVPCyD7gg6gCdLD38" target="_blank"
+							rel="noopener noreferrer">м. Київ, пр-т
+							Лесі Українки,
+							26</a>
+					</li>
+					<li class="footer__address-item">
+						<a class="footer__address-link" href="mailto:info@devstudio.com"
+							aria-label="Посилання на єлектронну пошту">info@devstudio.com</a>
+					</li>
+					<li class="footer__address-item">
+						<a class="footer__address-link" href="tel:+380961111111" aria-label="Посилання на номер телефону">+38 096
+							111 11 11</a>
+					</li>
+				</ul>
+			</address>
+		</section>
 	
 	</footer>
 	

@@ -15,8 +15,8 @@
 	<header class="header__container">
 		<div class="header__container-nav">
 			<nav class="header__nav">
-				<a href="./index.html" class="logo" lang="en" aria-label="Логотип студії"><span
-						class="logo-accent">Web</span>Studio</a>
+				<a href="./index.html" class="logo header__logo" lang="en" aria-label="Логотип студії"><span
+						class="logo__accent">Web</span>Studio</a>
 	
 				<ul class="header__nav-links">
 					<li class="header__nav-link">
@@ -40,26 +40,26 @@
 		</div>
 	</header>
 
-	<!-- Main -->
+	<!-- Portfolio -->
 	<main class="page">
 		<section class="portfolio__container">
 			<h1 class="hidden__title">Портфоліо</h1>
 
 			<ul class="portfolio__filter filter-items">
 				<li class="filter-item">
-					<button type="button">Усі</button>
+					<button class="filter-item-button active" type="button">Усі</button>
 				</li>
 				<li class="filter-item">
-					<button type="button">Веб-сайти</button>
+					<button class="filter-item-button" type="button">Веб-сайти</button>
 				</li>
 				<li class="filter-item">
-					<button type="button">Додатки</button>
+					<button class="filter-item-button" type="button">Додатки</button>
 				</li>
 				<li class="filter-item">
-					<button type="button">Дизайн</button>
+					<button class="filter-item-button" type="button">Дизайн</button>
 				</li>
 				<li class="filter-item">
-					<button type="button">Маркетинг</button>
+					<button class="filter-item-button" type="button">Маркетинг</button>
 				</li>
 			</ul>
 
@@ -115,25 +115,33 @@
 
 
 	<!-- Footer -->
-	<footer>
+	<footer class="footer">
 	
-		<a href="./index.html" lang="en" aria-label="Логотип студії"><span>Web</span>Studio</a>
+		<section class="footer__container">
+			<h2 class="hidden__title">Contacts</h2>
+			<a href="./index.html" class="logo footer__logo" lang="en" aria-label="Логотип студії"><span
+					class="logo__accent">Web</span>Studio</a>
 	
-		<address>
-			<ul>
-				<li>
-					<a href="https://goo.gl/maps/RVPCyD7gg6gCdLD38" target="_blank" rel="noopener noreferrer">м. Київ, пр-т
-						Лесі Українки,
-						26</a>
-				</li>
-				<li>
-					<a href="mailto:info@devstudio.com" aria-label="Посилання на єлектронну пошту">info@devstudio.com</a>
-				</li>
-				<li>
-					<a href="tel:+380961111111" aria-label="Посилання на номер телефону">+38 096 111 11 11</a>
-				</li>
-			</ul>
-		</address>
+			<address class="footer__address">
+				<ul class="footer__address-list">
+					<li class="footer__address-item">
+						<a class="footer__address-link accent" href="https://goo.gl/maps/RVPCyD7gg6gCdLD38" target="_blank"
+							rel="noopener noreferrer">м. Київ, пр-т
+							Лесі Українки,
+							26</a>
+					</li>
+					<li class="footer__address-item">
+						<a class="footer__address-link" href="mailto:info@devstudio.com"
+							aria-label="Посилання на єлектронну пошту">info@devstudio.com</a>
+					</li>
+					<li class="footer__address-item">
+						<a class="footer__address-link" href="tel:+380961111111"
+							aria-label="Посилання на номер телефону">+38 096
+							111 11 11</a>
+					</li>
+				</ul>
+			</address>
+		</section>
 	
 	</footer>
 	
