@@ -119,6 +119,11 @@ body {
 
 .footer__address-item {}
 
+.footer__address-item a:hover,
+.footer__address-item a:focus {
+	color: var(--accent-color);
+}
+
 .footer__address-link {
 	text-decoration: none;
 	color: var(--opacity-color);
@@ -261,7 +266,9 @@ body {
 	background: var(--accent-color);
 }
 
-.portfolio__content-cards {}
+.portfolio__content-cards {
+	list-style: none;
+}
 
 .portfolio__content-card {}
 
